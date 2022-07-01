@@ -1,0 +1,75 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+
+@media (max-width:568px) {
+
+
+
+  .menubar {
+      height: 100%;
+      POSITION: absolute;
+      top: 0px;
+      left: 0;
+      width: 81%;
+      background-color: #1a1a1a;
+
+      border-top-right-radius: 28px;
+      border-bottom-right-radius: 28px;
+
+      box-shadow: 0 2px 48px #000000bf;
+
+      padding: 18px;
+      text-align: center;
+      z-index: 5;
+      transition: all 2s ease;
+  }
+
+   .menubar{
+
+
+
+     ul {
+         list-style: none;
+         color: white;
+         margin-top: -30px;
+         padding: 0;
+             display: inline-block;
+     }
+
+
+   li {
+      padding-bottom: 66px;
+      font-size: 15px;
+      position: relative;
+  }
+
+
+   li::before {
+      position: absolute;
+      bottom: 61px;
+      left: -6px;
+      content: "";
+      height: 2px;
+      background-color: #41464b;
+      width: 122px;
+  }
+
+  .logoli::before{
+     width: 0!important;
+  }
+
+  li.logoli img {
+      width: 39px;
+      margin-bottom: 13px;
+  }
+
+  }
+
+
+
+
+
+}

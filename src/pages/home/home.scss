@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: GothamBoldItalic;
+  src: url(../../assets/font/Gotham-BookItalic.otf);
+}
+
+
+
+
+
+@media (max-width:568px) {
+
+
+.banner{
+  background-image: url("../../assets/images/dummy-banner-img.png");
+  min-height: 91vh;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: 125%;
+    overflow: hidden;
+}
+
+
+.text-banner {
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    height: 50%;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    transition-duration: 1s;
+}
+
+
+.text-banner {
+  h4{
+    font-size: 20px;
+    letter-spacing: 9px;
+    font-family: GothamBoldItalic;
+
+  }
+  h1{
+    font-size: 41px;
+
+        color: black;
+        -webkit-text-fill-color: transparent;
+      -webkit-text-stroke: thin #ccc;
+      text-decoration: none;
+      letter-spacing: 13px;
+    font-family: GothamBoldItalic;
+  }
+}
+
+
+.slider-btn {
+
+    width: 76%;
+
+    border: 2px solid #fff;
+  margin: 0 auto 40px;
+
+    border-radius: 30px;
+    padding: 4px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+     min-height: 46px;
+       transition: all 1s ease;
+}
+
+
+.circle-slider {
+     min-height: 34px;
+    background-color: white;
+    width: 13%;
+    border-radius: 50px;position: absolute;
+    position: relative;
+}
+
+
+.hideswip{
+  position: absolute;
+  bottom: -200%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.swip-para{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 14px;
+  color: #ababab;
+  font-family: GothamBoldItalic;
+
+}
+}

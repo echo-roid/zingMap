@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+@media (max-width:568px) {
+.work{
+    background-image: url("../../assets/images/dummy-banner-img.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+      position: relative;
+      min-height: 91vh;
+
+  }
+
+.slider-div {
+      margin: auto;
+      width: 38%;
+  }
+.framephone{
+   width: 50%;
+}
+
+.carousel-root {
+    outline: none;
+    position: absolute;
+    top: 70px;
+}
+.carousel .control-dots{
+  display: none;
+}
+.carousel .carousel-status{
+  display: none;
+}
+.carousel .slide .legend{
+  display: none;
+}
+.jnto {
+    text-align: center;
+    margin: 30px 0 40px;
+  }
+.jnto{
+    h6 {
+      font-size: 18px;
+      color: white;
+      letter-spacing: 5px;
+      position: relative;
+      display: inline;
+  }
+  h6::after{
+    position: absolute;
+    bottom: -10px;
+    left: -20px;
+    width: 100px;
+    height: 1.7px;
+    content: "";
+
+    background-color: white;
+  }
+
+
+  }
+  .showmore span {
+
+    text-align: center;
+    padding: 8px 19px;
+    border: 1px solid #fff;
+    border-radius: 46px;
+    font-size: 12px;
+    display: inline-block;
+   }
+
+.flow-div {
+       padding: 5px;
+       position: absolute;
+       left: 0;
+       bottom: 66px;
+       background-color: #212121;
+   }
+
+.flow-div {
+      ul {
+       list-style: none;
+       padding: 0px 0;
+      }
+       img{
+          width: 100%;
+       }
+}
+
+}
+@media (max-width: 568px){
+.framephone {
+    width: 42%;
+}
+}

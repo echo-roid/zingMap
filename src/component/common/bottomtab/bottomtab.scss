@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+@media (max-width:568px) {
+
+
+.bottomtab {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 26px;
+    background: #1A1A1A;
+    color: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    transition-duration: 0.5s;
+    font-size: 22px;
+}
+
+.activetab{
+  color: #F36D22!important;
+}
+}
+@media (max-width:330px) {
+  .bottomtab {
+
+    padding: 12px 26px;
+  }
+}
